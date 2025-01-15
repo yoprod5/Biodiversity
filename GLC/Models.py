@@ -81,7 +81,6 @@ class Resnet50(nn.Module):
         return self.sigm(self.base_model(x))
     
     
-# Exemple de modèle CNN avec Positional Encoding
 class CNN_TimeSeries(nn.Module):
         def __init__(self,N_Classes):
             super(CNN_TimeSeries,self).__init__(),
